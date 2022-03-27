@@ -6,10 +6,11 @@ import React from 'react'
 // import Button from '@mui/material/Button';
 // import Typography from '@mui/material/Typography';
 import './Projects.css'
-
+import TicTacToe from '../../assets/project-pictures/tictactoe.png'
+import Casbot from '../../assets/project-pictures/casbot.png'
 function Projects() {
   return (
-    <>
+    <div className="projectView">
       <h1>Projects</h1>
       <div className='projects'>
         <div className='project'>
@@ -19,13 +20,13 @@ function Projects() {
           <div className="projectButtons"></div>
         </div>
         <div className='project'>
-          <div className="projectPicture"> <img src="https://i0.wp.com/coachcedric.com/wp-content/uploads/2021/04/juego-duck-on-a-rock-game-1.jpg?fit=960%2C717&ssl=1"/> </div>
+          <div className="projectPicture"> <img src={Casbot} /> </div>
           <div className="projectName"> casBOT </div>
           <div className="projectDescription"></div>
           <div className="projectButtons"></div>
         </div>
         <div className='project'>
-          <div className="projectPicture"> <img src="https://i0.wp.com/coachcedric.com/wp-content/uploads/2021/04/juego-duck-on-a-rock-game-1.jpg?fit=960%2C717&ssl=1"/> </div>
+          <div className="projectPicture"> <img src={TicTacToe}/> </div>
           <div className="projectName"> Tic Tac Toe AI </div>
           <div className="projectDescription"></div>
           <div className="projectButtons"></div>
@@ -37,7 +38,7 @@ function Projects() {
           <div className="projectButtons"> </div>
         </div>        
       </div>
-    </>
+    </div>
   )
 }
 

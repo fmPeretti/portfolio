@@ -1,4 +1,8 @@
 
+.projectView{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
 
 .projects{
     display: grid;
@@ -16,7 +20,7 @@
     text-align: left;
 }
 .projectPicture img {
-    height: 100px;
+    height: 220px;
     object-position: 0 0;
 }
 .projectName{

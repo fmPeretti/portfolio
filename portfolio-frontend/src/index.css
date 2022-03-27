@@ -14,7 +14,8 @@
   --color-bg:#1d364d;;
   --color-bg-variant: #0c1722;
   --color-primary: #5ca5ee;
-  --color-light: #e9e9e9;
+  --color-light: #64dbff;
+  --color-secundary:#3a5388;
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -24,8 +25,24 @@ html{
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
-  display: none;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-secundary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-light);
 }
 
 body{

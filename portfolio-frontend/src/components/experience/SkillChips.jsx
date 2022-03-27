@@ -13,20 +13,12 @@ const styles = {
       color: "black",
       fontWeight: '500',
     },
-    redChip:{
-      backgroundColor: '#ff1168',
-      color: "white"
-    },
-    orangeChip:{
-      backgroundColor: '#f3931b',
-      color: "white"
-    },
 };
 
 function SkillChips() {
   return (
     <>
-        SKILLS
+        <p className='text-light' style={{fontWeight:500}}>SKILLS</p>
         <Chip style={styles.whiteChip} icon={<JavascriptIcon />} label="JavaScript" variant="filled" />
         <Chip style={styles.whiteChip} icon={<VueIcon />} label="Vue" variant="filled"  />
         <Chip style={styles.whiteChip} icon={<ReactIcon />} label="React" variant="filled"  />
