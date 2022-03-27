@@ -3,7 +3,7 @@ import './About.css'
 function About() {
   return (
     <>
-      <div>About</div>
+      <h1>About</h1>
       <div className='about-card' > 
         <h3 className='text-bolder'> About Me:</h3>
         <h5 className='text-italic'>
