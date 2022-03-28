@@ -3,7 +3,9 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
-
+.experience-title{
+    margin-bottom:20px;
+}
 .work-cards{
     display:flex;
     flex-direction: column;
@@ -52,4 +54,29 @@
     background-color: 'white';
     color: "black";
     font-weight: '500';
+}
+
+@media screen and (max-width: 1024px) {
+  .work-cards{
+    width:80%;
+  }
+  .work-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+    .work-description{
+        display: none;
+    }
+    .work-cards{
+      width:65%;
+    }
+    .work-info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
 }

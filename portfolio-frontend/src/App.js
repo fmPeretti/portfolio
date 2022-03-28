@@ -6,17 +6,21 @@ import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
 import Socials from './components/socials/Socials';
 import Contact from './components/contact/Contact';
+import CustomNav from './components/nav/CustomNav';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <CV/>
-      <Experience />
-      <Projects />
+    <div className="appContainer">
+      <CustomNav></CustomNav>
+      <div className="App">
+        <Header />
+        <About />
+        <CV/>
+        <Experience />
+        <Projects />
+      </div>
       <Socials />
-      <Contact />
+      <div className="contactBar"><Contact/></div>
     </div>
   );
 }

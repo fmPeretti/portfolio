@@ -1,0 +1,15 @@
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:20%;
+    right:5%;
+    position:fixed;
+}
+
+@media screen and (max-width: 900px) {
+    .socials{
+        display: none;
+    }
+}

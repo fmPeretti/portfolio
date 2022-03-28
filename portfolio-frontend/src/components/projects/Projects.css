@@ -1,9 +1,11 @@
 
 .projectView{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom:20px;
 }
-
+.projectTitle{
+    margin-bottom:10px;
+}
 .projects{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,4 +28,15 @@
 .projectName{
     margin-left: 10px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    .projects{
+        grid-template-columns: 1fr;
+    }
 }

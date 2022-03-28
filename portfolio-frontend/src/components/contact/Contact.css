@@ -1,0 +1,12 @@
+
+
+.contact-container{
+    margin-top:50px;
+    height: fit-content;
+    background: var(--color-bg-variant);
+    padding:30px;
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}

@@ -1,0 +1,24 @@
+.navMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:20%;
+    left:10%;
+    position:fixed;
+}
+a{
+    color: var(--color-light)
+}
+.navTitle{
+    position:absolute;
+    color:white;
+    right: 0px;
+    top: 63px;
+    transform: rotate(-90deg) ;
+}
+
+@media screen and (max-width: 900px) {
+    .navMenu{
+        display: none;
+    }
+}

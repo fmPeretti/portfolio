@@ -5,8 +5,8 @@ import SkillChips from './SkillChips'
 
 function Experience() {
   return (
-    <>
-      <h1>Experience</h1>
+    <div id="experience">
+      <h1 className="experience-title">Experience</h1>
       <div className='experience-grid'> 
         <div className='work-cards'>
           <WorkCards />
@@ -17,7 +17,7 @@ function Experience() {
           </div>
         </div>  
       </div>
-    </>
+    </div>
   )
 }
 

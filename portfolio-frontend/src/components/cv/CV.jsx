@@ -4,9 +4,9 @@ import './CV.css';
 function CV() {
   return (
     <>
-      <div className='container__cv'>
+      <div id="cv" className='container__cv'>
         <a className='btn btn-primary' href={cv} target="_blank"> Preview my CV </a>
-        <a dowload href={cv} className='btn'> Download my CV </a>
+        <a download href={cv} className='btn'> Download my CV </a>
       </div>
     </>
   )

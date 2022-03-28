@@ -6,6 +6,7 @@ import INCHIK from '../../assets/workplaces-icons/inchik.jpg'
 import STARGAZER from '../../assets/workplaces-icons/stargazer.jpg'
 import SOUTHWARD from '../../assets/workplaces-icons/southward.jpg'
 import { makeStyles } from "@material-ui/core/styles";
+import WorkCard from './WorkCard'
 
 const useStyles = makeStyles({
   stargazerBadge: {
@@ -22,41 +23,36 @@ const useStyles = makeStyles({
   }
 });
 
-function WorkCards() {
+function WorkCards(props) {
   const classes = useStyles();
   return (
     <>
-        <Badge  classes={{badge:classes.stargazerBadge}} badgeContent={"Current Job"} >
-            <div className='work-card'>
-              <div className="work-info">
-                <Avatar sx={{ width: 55, height: 55 }} src={STARGAZER}/>
-                <h3 className='work-name'> Stargazer </h3>
-                <h5 className='work-title'>  Software Engineer </h5>
-              </div>
-              <p className='work-description'> Software Engineer </p>
-            </div>
-          </Badge>
+      <WorkCard 
+        badgeText="Current Job"
+        workplaceClass="stargazer"
+        workplaceName="Stargazer" 
+        jobPosition="Software Engineer"
+        logo={STARGAZER}
+        workDescription={"Software Engineer"}
+      />
+      <WorkCard 
+        badgeText="2 Years Job"
+        workplaceClass="southward"
+        workplaceName={<>Southward <br/> Solutions </>} 
+        jobPosition="Fullstack Developer"
+        logo={SOUTHWARD}
+        workDescription={"Software Engineer"}
+      />
 
-          <Badge  badgeContent={"2 Years Job"} color="warning">
-            <div className='work-card'>
-              <div className="work-info">
-                <Avatar classes={{badge:classes.southwardBadge}} sx={{ width: 55, height: 55 }} src={SOUTHWARD}/>
-                <h3 className='work-name'> Southward <br /> Solutions </h3>
-                <h5 className='work-title'> Fullstack Developer </h5>
-              </div>
-              <p className='work-description'> Software Engineer </p>
-            </div>
-          </Badge>
-          <Badge  classes={{badge:classes.inchikBadge}} badgeContent={"6 Months Development"} color="error" >
-            <div className='work-card'>
-              <div className="work-info">
-                <Avatar sx={{ width: 60, height: 60 }} src={INCHIK}/>
-                <h3 className='work-name'> Inchik</h3>
-                <h5 className='work-title'> Fullstack Developer <br /> and designer</h5>
-              </div>
-              <p className='work-description'> Software Engineer </p>
-            </div>
-          </Badge>
+      <WorkCard 
+        badgeText="6 Months Development"
+        workplaceClass="inchik"
+        workplaceName={"Inchik"} 
+        jobPosition={<> Fullstack Developer <br /> and designer </>}
+        logo={INCHIK}
+        workDescription={"Software Engineer"}
+      />
+      
     </>
   )
 }

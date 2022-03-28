@@ -10,8 +10,8 @@ import TicTacToe from '../../assets/project-pictures/tictactoe.png'
 import Casbot from '../../assets/project-pictures/casbot.png'
 function Projects() {
   return (
-    <div className="projectView">
-      <h1>Projects</h1>
+    <div id="projects" className="projectView">
+      <h1 className='projectTitle'>Projects</h1>
       <div className='projects'>
         <div className='project'>
           <div className="projectPicture"> <img src="https://i0.wp.com/coachcedric.com/wp-content/uploads/2021/04/juego-duck-on-a-rock-game-1.jpg?fit=960%2C717&ssl=1"/> </div>
