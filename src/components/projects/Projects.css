@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 0.4rem;
-    gap:10px;
+    gap:0px;
     background-color: #3a5388;
     justify-content: start;
     text-align: left;
@@ -28,8 +28,13 @@
 .projectName{
     margin-left: 10px;
     font-weight: 600;
+    margin-top: 10px;
 }
-
+.projectButtons{
+    text-align: right;
+    margin-bottom:5px;
+    margin-right: 10px;
+}
 @media screen and (max-width: 1024px) {
     .projects{
         grid-template-columns: 1fr 1fr;

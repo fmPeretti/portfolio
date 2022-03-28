@@ -30,6 +30,12 @@
     color:black;
 }
 .work-description{
+    text-align: left;
+}
+.work-name{
+    width:102px
+}
+.work-description{
     font-style: italic;
     font-size: 12px;
 }
@@ -41,7 +47,7 @@
 .skills-chips{
     display: flex;
     flex-direction: column;
-    gap: 8.9px;
+    gap: 20px;
     align-items: right;
     width: max-content;
 }
@@ -55,18 +61,27 @@
     color: "black";
     font-weight: '500';
 }
-
+.avatar-border-stargazer,.avatar-border-southward,.avatar-border-inchik {
+    border-radius: 50%;
+    border:solid 2px transparent;
+}
+.avatar-border-stargazer:hover{
+    border:solid 2px var(--color-stargazer);
+}
+.avatar-border-southward:hover{
+    border:solid 2px var(--color-south);
+    border-radius: 50%;
+}
+.avatar-border-inchik:hover{
+    border:solid 2px var(--color-inchik);
+    border-radius: 50%;
+}
 @media screen and (max-width: 1024px) {
   .work-cards{
-    width:80%;
-  }
-  .work-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width:100%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .work-description{
         display: none;
     }

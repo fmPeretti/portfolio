@@ -26,7 +26,7 @@ function WorkCard(props) {
     <Badge  badgeContent={props.badgeText} classes={{badge:classes[props.workplaceClass + "Badge"]}}>
         <div className='work-card'>
             <div className="work-info">
-                <Avatar sx={{ width: 55, height: 55 }} src={props.logo}/>
+                <a className={"avatar-border-" + props.workplaceClass} target="_blank" href={props.workUrl}><Avatar sx={{ width: 55, height: 55 }} src={props.logo}/></a>
                 <h3 className='work-name'> {props.workplaceName} </h3>
                 <h5 className='work-title'> {props.jobPosition} </h5>
             </div>

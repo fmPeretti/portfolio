@@ -3,7 +3,7 @@ import './Experience.css'
 import { Chip } from '@mui/material'
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import StorageIcon from '@mui/icons-material/Storage';
-import {MaterialUIIcon, GitIcon, PHPIcon, BootsrapIcon, CPlusPlusIcon, CSSIcon, HTMLIcon, JAVAIcon, MongoDBIcon, PhytonIcon, ReactIcon, VueIcon} from '../Icons/Icons';
+import {MaterialUIIcon, GitIcon, PHPIcon, BootsrapIcon, CPlusPlusIcon, CSSIcon, HTMLIcon, JAVAIcon, MongoDBIcon, PhytonIcon, ReactIcon, VueIcon, TomcatIcon, GitLabIcon} from '../Icons/Icons';
 import { makeStyles } from "@material-ui/core/styles";
 
 
@@ -33,7 +33,8 @@ function SkillChips() {
         <Chip style={styles.whiteChip} icon={<CSSIcon />} label="CSS" variant="filled"  />
         <Chip style={styles.whiteChip} icon={<HTMLIcon />} label="HTML" variant="filled"  />
         <Chip style={styles.whiteChip} icon={<PHPIcon />} label="PHP" variant="filled"  />
-    
+        <Chip style={styles.whiteChip} icon={<TomcatIcon />} label="Tomcat" variant="filled"  />
+        <Chip style={styles.whiteChip} icon={<GitLabIcon />} label="GitLab" variant="filled"  />
     </>
   )
 }
