@@ -8,5 +8,6 @@
     display:grid;
     gap:10px;
     grid-template-columns: repeat(3, 1fr);
-    width: fit-content;
+    width: 100%;
+    min-width: fit-content;
 }

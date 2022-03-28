@@ -47,7 +47,7 @@
 .skills-chips{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     align-items: right;
     width: max-content;
 }
@@ -76,18 +76,24 @@
     border:solid 2px var(--color-inchik);
     border-radius: 50%;
 }
-@media screen and (max-width: 1024px) {
-  .work-cards{
-    width:100%;
-  }
-}
+
 @media screen and (max-width: 750px) {
-    .work-description{
-        display: none;
+    .experience-grid{
+        grid-template-columns: 1fr;
     }
-    .work-cards{
-      width:65%;
+    .skills-chips{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        align-items: right;
+        width: max-content;
     }
+    .skill-tilte{
+        grid-column: span 4;
+    }
+
+
     .work-info{
       display: flex;
       flex-direction: column;

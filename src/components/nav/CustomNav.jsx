@@ -9,7 +9,7 @@ function CustomNav() {
   return (
     <div className="navMenu">
       <p className='text-light navTitle' style={{fontWeight:500}}>Navigation</p>
-      <a href="#about"><HomeIcon/></a>
+      <a href="#"><HomeIcon/></a>
       <a href="#cv"><ArticleIcon/></a>
       <a href="#experience"><WorkIcon/></a>
       <a href="#projects"><LightbulbIcon/></a>

@@ -18,7 +18,7 @@ const styles = {
 function SkillChips() {
   return (
     <>
-        <p className='text-light' style={{fontWeight:500}}>SKILLS</p>
+        <p className='text-light skill-tilte' style={{fontWeight:500}}>SKILLS</p>
         <Chip style={styles.whiteChip} icon={<JavascriptIcon />} label="JavaScript" variant="filled" />
         <Chip style={styles.whiteChip} icon={<VueIcon />} label="Vue" variant="filled"  />
         <Chip style={styles.whiteChip} icon={<ReactIcon />} label="React" variant="filled"  />
