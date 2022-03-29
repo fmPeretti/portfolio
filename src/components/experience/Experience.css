@@ -81,6 +81,9 @@
     .experience-grid{
         grid-template-columns: 1fr;
     }
+    .work-cards{
+        width:85%
+    }
     .skills-chips{
         margin-top: 10px;
         display: grid;
