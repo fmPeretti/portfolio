@@ -18,23 +18,23 @@ function Projects() {
         <div className='project'>
           <div className="projectPicture"> <img src={Inchik}/> </div>
           <div className="projectName">Inchik Project</div>
-          <div className="projectButtons"><a>Try it!</a></div>
+          {/* <div className="projectButtons"><a>Try it!</a></div> */}
 
         </div>
         <div className='project'>
           <div className="projectPicture"> <img src={Casbot} /> </div>
           <div className="projectName"> casBOT </div>
-          <div className="projectButtons"><a>More Info</a></div>
+          {/* <div className="projectButtons"><a>More Info</a></div> */}
         </div>
         <div className='project'>
           <div className="projectPicture"> <img src={TicTacToe}/> </div>
           <div className="projectName"> Tic Tac Toe AI </div>
-          <div className="projectButtons"><a>Try it!</a></div>
+          {/* <div className="projectButtons"><a>Try it!</a></div> */}
         </div>
         <div className='project'>
           <div className="projectPicture"> <img src={Origami}/> </div>
           <div className="projectName">Aros de Origami Project</div>
-          <div className="projectButtons"><a>More Info</a></div>
+          {/* <div className="projectButtons"><a>More Info</a></div> */}
         </div>        
       </div>
     </div>
