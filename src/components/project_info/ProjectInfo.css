@@ -1,0 +1,106 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.title{
+    margin-bottom:20px;
+}
+.work-cards{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.work-card{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    padding:5%;
+    width: 100%;
+    border-radius: 0.4rem;
+    background: white;
+    border: 1px solid var(--color-primary)
+}
+.work-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-description, .work-name, .work-title{
+    color:black;
+}
+.work-description{
+    text-align: left;
+}
+.work-name{
+    width:102px
+}
+.work-description{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.work-avatar{
+    height:200px
+}
+
+.skills-chips{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: right;
+    width: max-content;
+}
+.chips{
+    display: grid;
+    justify-content: right;
+    justify-self: right;
+}
+.whiteChip {
+    background-color: 'white';
+    color: "black";
+    font-weight: '500';
+}
+.avatar-border-stargazer,.avatar-border-southward,.avatar-border-inchik {
+    border-radius: 50%;
+    border:solid 2px transparent;
+}
+.avatar-border-stargazer:hover{
+    border:solid 2px var(--color-stargazer);
+}
+.avatar-border-southward:hover{
+    border:solid 2px var(--color-south);
+    border-radius: 50%;
+}
+.avatar-border-inchik:hover{
+    border:solid 2px var(--color-inchik);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .work-cards{
+        width:85%
+    }
+    .skills-chips{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        align-items: right;
+        width: max-content;
+    }
+    .skill-tilte{
+        grid-column: span 4;
+    }
+
+
+    .work-info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+}

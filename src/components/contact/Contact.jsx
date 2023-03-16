@@ -13,7 +13,7 @@ function Contact() {
       </div>
       <div>
         <p> Thanks for Visiting my portfolio! </p>
-        <p> Developed by <a href="#"> Francisco Peretti </a> </p>
+        <p> Developed by <a href="/#"> Francisco Peretti </a> </p>
         <p> Made with React.js </p>
       </div>
     </div>

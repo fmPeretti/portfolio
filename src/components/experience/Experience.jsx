@@ -13,7 +13,7 @@ function Experience() {
         </div>
         <div className='chips'>
           <div className='skills-chips'>
-            <SkillChips />
+            <SkillChips all/>
           </div>
         </div>  
       </div>

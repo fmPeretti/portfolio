@@ -1,14 +1,15 @@
 .App {
   text-align:center;
   grid-column: 2/3;
+  height: 100%;
 }
+
 .appContainer{
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
 }
-.contactBar{
-  grid-column: span 3;
-}
+
 
 
 

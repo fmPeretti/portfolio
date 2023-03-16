@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 /**/
+
+#root{
+  height: 100%;
+}
 :root {
   --color-stargazer: #e91e63;
   --color-inchik:#de6dac;
@@ -24,9 +28,11 @@
   --container-width-sm: 90%;
   --transition: all 400ms ease;
 }
+
 html{
   scroll-behavior: smooth;
   min-width: 500px;
+  height: 100%;
 }
 
 /* width */
@@ -48,12 +54,12 @@ html{
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-light);
 }
-
 body{
   line-height: 1.7;
   color: white;
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5{

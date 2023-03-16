@@ -8,20 +8,42 @@ import Socials from './components/socials/Socials';
 import Contact from './components/contact/Contact';
 import CustomNav from './components/nav/CustomNav';
 
+import { BrowserRouter as Router, Routes, Route }
+  from 'react-router-dom';
+import Origami from './pages/Origami';
+import TicTacToe from './pages/TicTacToe';
+import Casbot from './pages/Casbot';
+
+const Home = () => (
+  <>
+    <div className="App">
+      <Header />
+      <About />
+      <CV />
+      <Experience />
+      <Projects />
+    </div>
+  </>
+)
 function App() {
   return (
     <div className="appContainer">
       <CustomNav></CustomNav>
       <div className="App">
-        <Header />
-        <About />
-        <CV/>
-        <Experience />
-        <Projects />
+        <Router>
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/about_origami' element={<Origami />} />
+            <Route path='/about_casbot' element={<Casbot />} />
+            <Route path='/about_ttt' element={<TicTacToe />} />
+          </Routes>
+        </Router>
+
       </div>
+
       <Socials />
-      <div className="contactBar"><Contact/></div>
-    </div>
+      <Contact />
+    </div >
   );
 }
 

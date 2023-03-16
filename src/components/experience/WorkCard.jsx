@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   southwardBadge:{
     backgroundColor: '#ed6c02',
     color: "white"
-  }
+  },
 });
 
 function WorkCard(props) {

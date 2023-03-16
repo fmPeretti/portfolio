@@ -1,13 +1,16 @@
 
 
 .contact-container{
+    grid-column: span 3;
     margin-top:50px;
-    height: fit-content;
     background: var(--color-bg-variant);
-    padding:30px;
-    display:grid;
+    padding:40px;
+    display:flex;
     gap:10px;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     min-width: fit-content;
+    height: auto;   
+    margin-top: auto;
 }
