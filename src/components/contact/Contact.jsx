@@ -14,7 +14,7 @@ function Contact() {
       <div>
         <p> Thanks for Visiting my portfolio! </p>
         <p> Developed by <a href="/#"> Francisco Peretti </a> </p>
-        <p> Made with React.js </p>
+        <p> Made with 🧡 and React.js </p>
       </div>
     </div>
   )

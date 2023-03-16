@@ -50,6 +50,7 @@
     gap: 15px;
     align-items: right;
     width: max-content;
+    max-width: 100%;
 }
 .chips{
     display: grid;
