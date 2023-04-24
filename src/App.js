@@ -28,10 +28,10 @@ const Home = () => (
 )
 function App() {
   return (
-    <div className="appContainer">
-      <CustomNav></CustomNav>
-      <div className="App">
-        <Router>
+    <Router>
+      <div className="appContainer">
+        <CustomNav></CustomNav>
+        <div className="App">
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/about_origami' element={<Origami />} />
@@ -39,13 +39,13 @@ function App() {
             <Route path='/about_ttt' element={<TicTacToe />} />
             <Route path='/about_thumbnail' element={<ThumnailGenerator />} />
           </Routes>
-        </Router>
 
-      </div>
+        </div>
 
-      <Socials />
-      <Contact />
-    </div >
+        <Socials />
+        <Contact />
+      </div >
+    </Router>
   );
 }
 
