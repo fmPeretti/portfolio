@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Routes, Route }
 import Origami from './pages/Origami';
 import TicTacToe from './pages/TicTacToe';
 import Casbot from './pages/Casbot';
+import ThumnailGenerator from './pages/ThumnailGenerator';
 
 const Home = () => (
   <>
@@ -36,6 +37,7 @@ function App() {
             <Route path='/about_origami' element={<Origami />} />
             <Route path='/about_casbot' element={<Casbot />} />
             <Route path='/about_ttt' element={<TicTacToe />} />
+            <Route path='/about_thumbnail' element={<ThumnailGenerator />} />
           </Routes>
         </Router>
 
