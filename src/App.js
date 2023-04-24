@@ -8,7 +8,7 @@ import Socials from './components/socials/Socials';
 import Contact from './components/contact/Contact';
 import CustomNav from './components/nav/CustomNav';
 
-import { BrowserRouter as Router, Routes, Route }
+import { HashRouter as Router, Routes, Route }
   from 'react-router-dom';
 import Origami from './pages/Origami';
 import TicTacToe from './pages/TicTacToe';
