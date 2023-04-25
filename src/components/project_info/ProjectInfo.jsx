@@ -18,11 +18,11 @@ const ProjectInfo = ({
 }) => {
   return (
     <div id="main">
-      <div style={{ marginTop:"20px",textAlign: "left" }}>
-        <Link to='/'>
-            <IconButton sx={{ color: "white" }}>
+      <div style={{ marginTop: "20px", textAlign: "left" }}>
+        <Link to="/">
+          <IconButton sx={{ color: "white" }}>
             <ArrowBack /> <Home />
-            </IconButton>
+          </IconButton>
         </Link>
       </div>
       <h1 className="title">{name}</h1>
