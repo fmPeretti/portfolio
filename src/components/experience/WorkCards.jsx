@@ -36,20 +36,17 @@ function WorkCards(props) {
         logo={STARGAZER}
         workDescription={
           <>
-            Complete overhauling of all Stargazer sites.
-            <br />
-            Adding new features on any of the sites with the corresponding necessary backend changes.
-            <br />
-            Add support for new social media platforms.
-            <br />
-            Integrate various Third party SDKs and APIs to the projects.
-            <br />
-            Debbugging and Testing.
-            <br />
-            Maintenance, Technical debt and bug fixes.
-            <br />
-            Some of the Technologies are: React.js, MaterialUI, CSS, MongoDB, Jest, node.js, JavaScript, Mongoose.
+          As a developer for Stargazer, a marketing with influencers company with multiple clients, I was responsible for working on different portals for each client, where I refactored and developed new features. My day-to-day tasks included gaining valuable knowledge about the business logic, processes, and use cases of each client, allowing me to come up with new and innovative features for their portals. <br />
+
+Working closely with the CTO and my team, I organized sprints, discussed design, and reviewed progress to ensure that all features were implemented efficiently and effectively. I also added support for new social media platforms, debugged and tested the portals, and maintained the codebase, addressing technical debt and fixing bugs as needed. <br />
+
+Throughout this process, I utilized a range of technologies, including React.js, MaterialUI, CSS, MongoDB, Jest, node.js, JavaScript, and Mongoose. I also provided product support for internal users and contributed to brainstorming new product ideas, designing and developing proof of concept, MVPs, and experiments, and sometimes turning these ideas into fully-fledged projects. <br />
+
+In addition to my development work, I conducted research on AI technologies and explored multiple AI services and APIs, including Text to Image, Text to Audio, Audio to Text, and Img to Video technologies, staying on the cutting edge of industry developments and bringing new ideas and approaches to the Stargazer team. <br />
+
+Overall, my experience at Stargazer allowed me to gain valuable development and product experience while collaborating with a talented team to deliver high-quality solutions for multiple clients. 
           </>
+          
         }
       />
       <WorkCard 
