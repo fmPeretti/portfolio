@@ -1,6 +1,4 @@
 import React from 'react'
-import { Badge } from '@mui/material'
-import Avatar from '@mui/material/Avatar'
 import './Experience.css'
 import INCHIK from '../../assets/workplaces-icons/inchik.jpg'
 import STARGAZER from '../../assets/workplaces-icons/stargazer.jpg'
@@ -50,7 +48,6 @@ function WorkCards(props) {
 
             Overall, my experience at Stargazer allowed me to gain valuable development and product experience while collaborating with a talented team to deliver high-quality solutions for multiple clients.
           </>
-
         }
       />
       <WorkCard

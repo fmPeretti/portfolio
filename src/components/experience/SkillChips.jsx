@@ -3,8 +3,7 @@ import './Experience.css'
 import { Chip } from '@mui/material'
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import StorageIcon from '@mui/icons-material/Storage';
-import { MaterialUIIcon, GitIcon, PHPIcon, BootsrapIcon, CPlusPlusIcon, CSSIcon, HTMLIcon, JAVAIcon, MongoDBIcon, PhytonIcon, ReactIcon, VueIcon, TomcatIcon, GitLabIcon, NodejsIcon, BrainIcon, OpenAiIcon } from '../Icons/Icons';
-import { makeStyles } from "@material-ui/core/styles";
+import { MaterialUIIcon, GitIcon, PHPIcon, BootsrapIcon, CPlusPlusIcon, CSSIcon, HTMLIcon, JAVAIcon, MongoDBIcon, PhytonIcon, ReactIcon, VueIcon, TomcatIcon, NodejsIcon, BrainIcon, OpenAiIcon } from '../Icons/Icons';
 
 
 const styles = {
