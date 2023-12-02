@@ -3,7 +3,7 @@ import './Experience.css'
 import { Chip } from '@mui/material'
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import StorageIcon from '@mui/icons-material/Storage';
-import { MaterialUIIcon, GitIcon, PHPIcon, BootsrapIcon, CPlusPlusIcon, CSSIcon, HTMLIcon, JAVAIcon, MongoDBIcon, PhytonIcon, ReactIcon, VueIcon, TomcatIcon, NodejsIcon, BrainIcon, OpenAiIcon } from '../Icons/Icons';
+import { MaterialUIIcon, GitIcon, PHPIcon, BootsrapIcon, CPlusPlusIcon, CSSIcon, HTMLIcon, JAVAIcon, MongoDBIcon, PhytonIcon, ReactIcon, VueIcon, TomcatIcon, NodejsIcon, BrainIcon, OpenAiIcon, ArtificalIntelligenceIcon } from '../Icons/Icons';
 
 
 const styles = {
@@ -20,6 +20,7 @@ const skill_chips = {
   problem_solving: <Chip style={styles.whiteChip} icon={<BrainIcon />} label="Problem Solving" variant="filled" />,
   react: <Chip style={styles.whiteChip} icon={<ReactIcon />} label="React" variant="filled" />,
   node: <Chip style={styles.whiteChip} icon={<NodejsIcon />} label="NodeJs" variant="filled" />,
+  ai: <Chip style={styles.whiteChip} icon={<ArtificalIntelligenceIcon />} label="Artificial Intelligence (AI)" variant="filled" />,
   open_ai: <Chip style={styles.whiteChip} icon={<OpenAiIcon />} label="OpenAi" variant="filled" />,
   vue: <Chip style={styles.whiteChip} icon={<VueIcon />} label="Vue" variant="filled" />,
   java: <Chip style={styles.whiteChip} icon={<JAVAIcon />} label="JAVA" variant="filled" />,

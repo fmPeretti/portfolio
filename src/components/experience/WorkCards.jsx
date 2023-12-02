@@ -26,7 +26,7 @@ function WorkCards(props) {
   return (
     <>
       <WorkCard
-        badgeText="Current Job"
+        badgeText="Current - 2yrs"
         workplaceClass="stargazer"
         workplaceName="Stargazer"
         jobPosition="Software Engineer"
